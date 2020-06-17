@@ -1,0 +1,129 @@
+body  {
+    height: 100vh;
+    width: 100vw; 
+}
+
+
+
+
+main {
+    display: grid;
+    grid-template-columns: 30% 40% 30%;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    height: 100vh;
+    width: 60% auto;
+    font-family: 'Quicksand', sans-serif;
+}
+
+
+header{
+    background-color: #648FCC;
+    text-align: center;
+    grid-column: 1/4;
+    grid-row: 1/2;
+    border-bottom: double 20px #C0001D;
+}
+
+
+.profile {
+    background-color: #3B6490;
+    text-align: center;
+    grid-row: 2/3;
+    grid-column: 1/2;
+
+}
+
+
+
+#image {
+    height: 75%;
+    width: 25%;
+    border-radius: 50%;
+    margin: 10px auto;
+    grid-row: 2/3;
+    grid-column: 2/3;
+    
+}
+    
+.contact {
+    grid-row: 2/3;
+    grid-column: 3/4;
+    background-color: #648FCC;
+    text-align: center;
+    
+}
+
+
+a:visited {
+    color: red;
+}
+
+a:hover {
+    color: blue;
+}
+
+
+
+.edu {
+    background-color: #648FCC;
+    text-align: center;
+    grid-row: 3/4;
+    grid-column: 1/2;
+}
+
+.skills {
+    background-color: #C0001D;
+    text-align: center;
+    grid-row: 3/4;
+    grid-column: 2/3;
+}
+ 
+.skills > h2{
+    margin: auto;
+    border-bottom: solid #F4F4F4;
+    border-width: 15px;
+    
+    
+}
+
+.expert {
+    background-color: #3B6490;
+    text-align: center;
+    grid-row: 3/4;
+    grid-column: 3/4;
+}
+
+.job1 {
+    background-color: #F4F4F4;
+    grid-row: 4/5;
+    grid-column: 1/3;
+
+    
+}
+
+.job1 > h2, h3 {
+    justify-content: space-evenly;
+    margin: 0;
+    text-align: center;
+    position: relative;
+}
+
+.job2 {
+    background-color: #F4F4F4;
+    grid-area: job2;
+    grid-row: 4/5;
+    grid-column: 3/4;
+}
+
+.job2 > h2, h3, ul {
+    margin: 0;
+}
+
+ul{
+    font-size: 12px;
+}
+footer {
+    background-color: black;
+    color: white;
+}
+

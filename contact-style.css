@@ -1,0 +1,40 @@
+body {
+    display: grid;
+    height: 100vh;
+    width: 100vw;
+    grid-template-columns: none;
+    grid-template-rows: 10% 60% 30%;
+}
+
+header {
+    border-bottom: double 20px #C0001D;
+    font-size: 40px;
+    color: #C5C9D1;
+    background-color: #012D65;
+    text-align: center;
+    grid-column: 1/4;
+}
+
+h2 {
+    margin-top: 0;
+}
+
+.flname{
+    text-align: center;
+    background-color: #648FCC;
+}
+
+.ref {
+    text-align: center;
+    background-color: #C5C9D1;
+}
+
+.userabt {
+    text-align: center;
+    background-color: #648FCC ;
+}
+
+.message {
+    text-align: center;
+    background-color: #C5C9D1;
+}
