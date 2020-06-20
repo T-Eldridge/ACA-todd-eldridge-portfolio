@@ -6,7 +6,7 @@ body {
 header {
     grid-row: 1/2;
     text-align: center;
-   background-color: #648FCC;
+    background-color: #648FCC;
     border-bottom: solid #C5C9D1 5px;
  
 }
@@ -17,22 +17,32 @@ header {
 
 } 
 
+
 main {
-    background-color: #012D65 ;
+    background-color: #C5C9D1  ;
     width: 95%;
     height: 95%;
     
 }
+
+
 .early {
     border: solid 15px #C0001D;
     text-align: center;
-    grid-row: 2/3
-    
+    grid-row: 2/3;
+    background-image: url(bgimage.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 150%;
 }
 
 .work {
     text-align: center;
     grid-row: 3/4;
+    background-image: url(bgimage.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 150%;
 }
 
 .future {
@@ -40,6 +50,10 @@ main {
     text-align: center;
     text-overflow: ellipsis;
     grid-row: 4/5;
+    background-image: url(bgimage.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 150%;
 }
 
 p {
@@ -94,8 +108,12 @@ p {
  }
     main {
         width: 60%;
-        height: 100vh;
+        height: 100%;
         background-size: cover;
+    }
+
+    h2 {
+        margin-top: 0;
     }
 
 
